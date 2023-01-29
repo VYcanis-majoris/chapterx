@@ -1,17 +1,6 @@
 import React from 'react';
 
 const form = ({ products, bannerData }) => {
-  const handleSubmit = async () => {
-    const response = await fetch('/product/cloudinary-link', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    });
-    console.log(data);
-  };
-
   return (
     <div className='form-loc'>
       <div className='form-container'>
